@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.webmap-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.map-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+}
+
+.map-card iframe {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+.map-details {
+    padding: 15px;
+    background-color: #e0f3f9;
+    text-align: center;
+}
+
+.map-details p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.map-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.map-button:hover {
+    background-color: #d62828;
+}
